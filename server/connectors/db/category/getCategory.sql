@@ -1,0 +1,1 @@
+SELECT category.* FROM category JOIN products ON category.id = products.categoryId WHERE category.id = $1;

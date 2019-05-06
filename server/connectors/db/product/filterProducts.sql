@@ -1,0 +1,2 @@
+SELECT products.*, category.name AS category FROM products JOIN category ON products.categoryId = category.id 
+WHERE products.name LIKE ${categoryToCompare} OR category.name LIKE ${categoryToCompare} LIMIT 3;

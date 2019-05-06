@@ -1,0 +1,1 @@
+INSERT INTO products (image, name, price, categoryId) VALUES (${newProduct.image}, ${newProduct.name}, ${newProduct.price}, ${newProduct.categoryId}) RETURNING *;
